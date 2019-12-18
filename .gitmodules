@@ -1,0 +1,3 @@
+[submodule "hellsite-base"]
+	path = hellsite-base
+	url = git@github.com:general-programming/hellsite-base.git
