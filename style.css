@@ -1,0 +1,93 @@
+        * {
+            font-family: Comic Sans MS, Chalkboard SE, Chalkboard !important;
+            color: red !important;
+            cursor: url(./wii-pointer-blue-ccw.cur), auto !important;
+            background-image: url("forb.gif") !important;
+            background-attachment: scroll!;
+            transform: rotate(-2deg);
+            transition-duration: 1s;
+            animation: spinny 1360s linear infinite;
+        }
+        
+        a {
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent !important;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, red), color-stop(16%, orange), color-stop(32%, yellow), color-stop(48%, green), color-stop(60%, blue), color-stop(76%, indigo), color-stop(1.00, violet)) !important;
+        }
+        
+        .dog {
+            animation: rotation 10s infinite linear;
+        }
+        
+        .kid {
+            animation: rotation 2.5s infinite linear;
+            height: 250px;
+        }
+        
+        img {
+            animation: spinny 0.1s infinite linear;
+        }
+        /*seems like keyframes*/
+        
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+        
+        @keyframes rotation2 {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-7deg);
+            }
+            75% {
+                transform: rotate(7deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        
+        @keyframes spinny {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-359deg);
+            }
+            50% {
+                transform: rotate(359deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        /*cockies*/
+        
+        .accept-our-cookies-69420 {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            bottom: 0px;
+            left: 0px;
+            animation: spinny 5s linear infinite !important;
+        }
+        
+        * {
+            background-image: url(/He.png);
+        }
+        
+        *:before,
+        *:after {
+            content: url(/He.png);
+            background-image: url(/He.png);
+            display: inline-block;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+        }
