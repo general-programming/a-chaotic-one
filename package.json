@@ -1,0 +1,19 @@
+{
+  "name": "a-chaotic-one",
+  "version": "1.0.0",
+  "maintainers": [
+    "noone"
+  ],
+  "author": "noone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/general-programming/a-chaotic-one.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
